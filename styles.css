@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(233, 72, 103, 1) 0%, rgba(255, 167, 66, 1) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+header:hover {
+    background: linear-gradient(90deg, rgba(255, 167, 66, 1) 0%, rgba(233, 72, 103, 1) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+}
+
+form input[type='text'], form input[type='email'], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type='submit'] {
+    background: linear-gradient(90deg, rgba(233, 72, 103, 1) 0%, rgba(255, 167, 66, 1) 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type='submit']:hover {
+    background: linear-gradient(90deg, rgba(255, 167, 66, 1) 0%, rgba(233, 72, 103, 1) 100%);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+    form {
+        padding: 15px;
+    }
+}
