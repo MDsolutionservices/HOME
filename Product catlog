@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enterprise Cybersecurity Product Landscape</title>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+h1 {
+    color: #0b3d91;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1a5fb4;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #333;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Enterprise Cybersecurity Product Landscape</h1>
+
+<p>
+The cybersecurity market is typically organized by security control domains rather than individual vendors.
+Below is a structured overview of major cybersecurity product categories deployed in enterprise environments.
+</p>
+
+<!-- NETWORK SECURITY -->
+<section>
+<h2>1. Network Security (Perimeter & Internal Protection)</h2>
+
+<h3>Firewall (NGFW / UTM)</h3>
+<p>Controls traffic between networks using policy, application awareness, IPS, and threat intelligence.</p>
+
+<b>Functions:</b>
+<ul>
+<li>Layer 3–7 traffic filtering</li>
+<li>IPS/IDS</li>
+<li>Application control</li>
+<li>VPN (IPsec / SSL)</li>
+<li>Web filtering</li>
+</ul>
+
+<b>Examples:</b>
+<p>Palo Alto Networks, Fortinet, Check Point Software Technologies, Sophos, Cisco</p>
+
+<b>Related Products:</b>
+<ul>
+<li>Secure Web Gateway (SWG)</li>
+<li>SD-WAN Security</li>
+<li>Zero Trust Network Access (ZTNA)</li>
+</ul>
+</section>
+
+<!-- ENDPOINT SECURITY -->
+<section>
+<h2>2. Endpoint Security</h2>
+
+<p>Protects laptops, desktops, servers, and mobile endpoints.</p>
+
+<b>Sub-categories:</b>
+<ul>
+<li>Antivirus / Next-Gen AV</li>
+<li>EDR (Endpoint Detection & Response)</li>
+<li>XDR (Extended Detection & Response)</li>
+</ul>
+
+<b>Capabilities:</b>
+<ul>
+<li>Malware detection</li>
+<li>Behavioral analysis</li>
+<li>Ransomware protection</li>
+<li>Device isolation</li>
+</ul>
+
+<b>Examples:</b>
+<p>CrowdStrike, SentinelOne, Microsoft Defender, Trend Micro</p>
+</section>
+
+<!-- DLP -->
+<section>
+<h2>3. Data Loss Prevention (DLP)</h2>
+
+<p>Prevents sensitive data leakage across endpoints, email, cloud, and network channels.</p>
+
+<b>Controls:</b>
+<ul>
+<li>Data classification</li>
+<li>USB/device control</li>
+<li>Email inspection</li>
+<li>Cloud data monitoring</li>
+</ul>
+
+<b>Types:</b>
+<ul>
+<li>Network DLP</li>
+<li>Endpoint DLP</li>
+<li>Cloud DLP</li>
+</ul>
+
+<b>Examples:</b>
+<p>Symantec (Broadcom), Forcepoint, Digital Guardian</p>
+</section>
+
+<!-- MDM -->
+<section>
+<h2>4. Mobile Device Management (MDM) / UEM</h2>
+
+<ul>
+<li>Device enrollment</li>
+<li>Remote wipe</li>
+<li>Policy enforcement</li>
+<li>App control</li>
+<li>Compliance checks</li>
+</ul>
+
+<p><b>Modern Term:</b> Unified Endpoint Management (UEM)</p>
+<p><b>Examples:</b> VMware Workspace ONE, Microsoft Intune, Ivanti</p>
+</section>
+
+<!-- IAM -->
+<section>
+<h2>5. Identity and Access Management (IAM)</h2>
+
+<p>Controls who can access what.</p>
+
+<ul>
+<li>Authentication</li>
+<li>Authorization</li>
+<li>SSO (Single Sign-On)</li>
+<li>MFA (Multi-Factor Authentication)</li>
+<li>Identity governance</li>
+</ul>
+
+<b>Extensions:</b>
+<ul>
+<li>PAM (Privileged Access Management)</li>
+<li>CIAM (Customer IAM)</li>
+</ul>
+
+<p><b>Examples:</b> Okta, CyberArk, Ping Identity</p>
+</section>
+
+<!-- EMAIL SECURITY -->
+<section>
+<h2>6. Email Security</h2>
+
+<ul>
+<li>Anti-phishing</li>
+<li>Anti-spam</li>
+<li>Attachment sandboxing</li>
+<li>URL rewriting</li>
+<li>DMARC/DKIM/SPF enforcement</li>
+</ul>
+
+<p><b>Examples:</b> Proofpoint, Mimecast, Barracuda Networks</p>
+</section>
+
+<!-- VULNERABILITY -->
+<section>
+<h2>7. Vulnerability & Asset Management</h2>
+
+<ul>
+<li>Asset discovery</li>
+<li>Vulnerability scanning</li>
+<li>Risk scoring</li>
+<li>Patch prioritization</li>
+</ul>
+
+<p><b>Examples:</b> Tenable, Qualys, Rapid7</p>
+</section>
+
+<!-- SOC -->
+<section>
+<h2>8. Security Operations (SOC Technologies)</h2>
+
+<h3>SIEM</h3>
+<p>Centralized log monitoring and correlation.</p>
+<p>Examples: Splunk, IBM QRadar, Elastic</p>
+
+<h3>SOAR</h3>
+<p>Automated incident response workflows.</p>
+</section>
+
+<!-- CLOUD -->
+<section>
+<h2>9. Cloud Security</h2>
+
+<ul>
+<li>CASB</li>
+<li>CSPM</li>
+<li>CWPP</li>
+</ul>
+
+<p><b>Examples:</b> Zscaler, Netskope, Wiz</p>
+</section>
+
+<!-- APPSEC -->
+<section>
+<h2>10. Application Security (AppSec)</h2>
+
+<ul>
+<li>Web Application Firewall (WAF)</li>
+<li>SAST / DAST</li>
+<li>API Security</li>
+<li>Runtime protection</li>
+</ul>
+
+<p><b>Examples:</b> F5, Akamai Technologies</p>
+</section>
+
+<!-- ZERO TRUST -->
+<section>
+<h2>11. Zero Trust & SASE</h2>
+
+<ul>
+<li>SWG</li>
+<li>CASB</li>
+<li>ZTNA</li>
+<li>Firewall-as-a-Service</li>
+</ul>
+
+<p><b>Leaders:</b> Palo Alto Networks (Prisma), Fortinet, Zscaler</p>
+</section>
+
+<!-- BACKUP -->
+<section>
+<h2>12. Backup & Ransomware Protection</h2>
+
+<p>Security and recovery combined.</p>
+<p><b>Examples:</b> Veeam, Rubrik</p>
+</section>
+
+<!-- STACK -->
+<section>
+<h2>Simplified Enterprise Security Stack</h2>
+
+<ul>
+<li>Firewall / SASE</li>
+<li>Endpoint EDR/XDR</li>
+<li>IAM + MFA</li>
+<li>Email Security</li>
+<li>DLP</li>
+<li>MDM/UEM</li>
+<li>Vulnerability Management</li>
+<li>SIEM/SOC</li>
+<li>Cloud Security</li>
+<li>Backup & Recovery</li>
+</ul>
+</section>
+
+<section class="footer">
+Enterprise security protects:
+<ul>
+<li>Identity → IAM</li>
+<li>Device → Endpoint + MDM</li>
+<li>Network → Firewall + ZTNA</li>
+<li>Data → DLP + Encryption</li>
+</ul>
+</section>
+
+<section class="contact-cta">
+    <h2>Reach Out to Us</h2>
+
+    <p>
+        Reach out to us to understand which cybersecurity solutions and suites best align
+        with your organizational requirements. Our team will assess your current environment,
+        identify security gaps, and recommend the right combination of technologies tailored
+        to your infrastructure, users, and compliance needs.
+    </p>
+
+    <p>
+        Whether you are looking to strengthen network security, protect endpoints, secure
+        identities, safeguard data, or build a complete zero-trust architecture, we provide
+        guidance from evaluation through deployment and ongoing optimization.
+    </p>
+
+    <p>
+        Connect with us today to design a cybersecurity strategy that is scalable,
+        resilient, and aligned with your business objectives.
+    </p>
+
+    <a href="contact.html" class="cta-button">Contact Us</a>
+</section>
+
+<style>
+.contact-cta {
+    background-color: #0b3d91;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.contact-cta h2 {
+    margin-bottom: 15px;
+}
+
+.contact-cta p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0b3d91;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e6e6e6;
+}
+</style>
+
+</body>
+</html>
